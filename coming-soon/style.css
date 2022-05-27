@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'AdiHaus';
+    src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AdiHaus";
+    src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+body,
+html {
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: AdiHaus;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 46px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: #333333;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+#entire-page {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#adidas-img {
+    display: block;
+    margin: 2.5vh auto;
+}
+
+#model {
+    background-image: url("img/Bitmap.png");
+    height: 200px;
+    background-size: cover;
+    width: 100%;
+}
+
+h2.red-text {
+    color: #CD3A24;
+    font-weight: 400;
+}
+
+h2.grey-text {
+    color: #423A3A;
+}
+
+.text-container {
+    width: 100%;
+    text-align: center;
+}
+
+.all-content {
+    padding: 20px 30px;
+}
+
+input[type="text"] {
+    width: 75%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+input[type="submit"] {
+    width: 25%;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
