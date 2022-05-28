@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'AdiHaus';
+    src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AdiHaus";
+    src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+body,
+html {
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: AdiHaus;
+}
+
+body {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 46px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: #333333;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+#mobile-page {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#adidas-img {
+    display: block;
+    margin: 2.5vh auto;
+}
+
+#model-mobile {
+    background-image: url(/coming-soon/img/version-1/athlete_img_mobile.png);
+    height: 200px;
+    background-size: cover;
+    width: 100%;
+}
+
+h2:nth-of-type(1) {
+    color: #CD3A24;
+    font-weight: 400;
+}
+
+h2:nth-of-type(2) {
+    color: #423A3A;
+}
+
+.text-container {
+    width: 100%;
+    text-align: center;
+}
+
+.all-content {
+    padding: 20px 30px;
+}
+
+input[type="text"] {
+    width: 75%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+input[type="submit"] {
+    width: 25%;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
+
+.desktop-img {
+    display: none;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    body {
+        background: url(/coming-soon/img/version-1/destop_bg-version_1.png);
+        background-size: cover;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+
+    #mobile-page {
+        width: 50%;
+    }
+
+    .text-container {
+        text-align: left;
+    }
+
+    #adidas-img {
+        display: block;
+        margin: 30px 30px 100px;
+    }
+
+    #model-mobile {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+        width: 50%;
+        background: url(/coming-soon/img/version-1/athlete_img-desktop.png);
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
+    }
+
+}

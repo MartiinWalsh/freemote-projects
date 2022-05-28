@@ -60,18 +60,18 @@ p {
 }
 
 #model-mobile {
-    background-image: url("img/athlete_img_mobile.png");
+    background: url("https://assets.codepen.io/6060109/mobile-shoes.jpg") no-repeat right center;
     height: 200px;
     background-size: cover;
     width: 100%;
 }
 
-h2.red-text {
-    color: #CD3A24;
+h2:nth-of-type(1) {
+    color: #2F80ED;
     font-weight: 400;
 }
 
-h2.grey-text {
+h2:nth-of-type(2) {
     color: #423A3A;
 }
 
@@ -98,7 +98,8 @@ input[type="submit"] {
     font-weight: 700;
     color: white;
     font-size: 18px;
-    background-color: black;
+    background: rgb(124, 124, 124);
+    background: linear-gradient(90deg, rgba(124, 124, 124, 1) 0%, rgba(43, 40, 40, 1) 100%);
 }
 
 .desktop-img {
@@ -110,7 +111,7 @@ input[type="submit"] {
 @media only screen and (min-width: 768px) {
 
     body {
-        background: url(img/destop-bg.png);
+        background: url(/coming-soon/img/version-2/desktop_bg-version_2.png);
         background-size: cover;
     }
 
@@ -138,9 +139,8 @@ input[type="submit"] {
     .desktop-img {
         display: block;
         width: 50%;
-        background: url(img/athlete-img-desktop.png);
+        background: url(/coming-soon/img/version-2/shoes_img-desktop.png);
         background-size: cover;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
     }
 
 }
