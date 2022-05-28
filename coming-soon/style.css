@@ -23,6 +23,10 @@ html {
     font-family: AdiHaus;
 }
 
+body {
+    display: flex;
+}
+
 h1 {
     text-align: center;
 }
@@ -45,7 +49,7 @@ p {
     margin-bottom: 30px;
 }
 
-#entire-page {
+#mobile-page {
     max-width: 500px;
     margin: 0 auto;
 }
@@ -55,8 +59,8 @@ p {
     margin: 2.5vh auto;
 }
 
-#model {
-    background-image: url("img/Bitmap.png");
+#model-mobile {
+    background-image: url("img/athlete_img_mobile.png");
     height: 200px;
     background-size: cover;
     width: 100%;
@@ -95,4 +99,48 @@ input[type="submit"] {
     color: white;
     font-size: 18px;
     background-color: black;
+}
+
+.desktop-img {
+    display: none;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    body {
+        background: url(img/destop-bg.png);
+        background-size: cover;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+
+    #mobile-page {
+        width: 50%;
+    }
+
+    .text-container {
+        text-align: left;
+    }
+
+    #adidas-img {
+        display: block;
+        margin: 30px 30px 100px;
+    }
+
+    #model-mobile {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+        width: 50%;
+        background: url(img/athlete-img-desktop.png);
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
+    }
+
 }

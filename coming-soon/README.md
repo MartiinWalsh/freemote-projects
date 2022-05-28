@@ -4,4 +4,8 @@ Built with a mobile first design approach.
 
 ## Mobile Version
 
-<img alt="Mobile Site" width="40%" height="40%" src="img/coming_soon-mobile.png" />
+<img alt="Mobile Site" width="35%" src="img/coming_soon-mobile.png" />
+
+## Desktop Version
+
+<img alt="Desktop Site" width="70%" src="img/coming_soon-desktop.png" />
