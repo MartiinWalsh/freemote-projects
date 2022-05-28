@@ -4,9 +4,9 @@ Built with a mobile first design approach.
 
 ## Mobile Versions
 <div style="display: flex; justify-content:space-between">
-    <img alt="Mobile Site" width="40%" src="img/screenshots/coming_soon-mobile.png" />
-<br>
-    <img alt="Mobile Site V2" width="40%" src="img/screenshots/coming_soon-mobile_V2.png" />
+<img alt="Mobile Site" width="39%" src="img/screenshots/coming_soon-mobile.png" />
+    
+<img alt="Mobile Site V2" width="40%" src="img/screenshots/coming_soon-mobile_V2.png" />
 </div>
 <br>
 
