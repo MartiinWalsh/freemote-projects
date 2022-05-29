@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background: url(/delivery-status/img/ZigZag-bg.png);
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0px 40px 40px -20px #3C7B61;
+    border-radius: 5px;
+    width: 85vw;
+    height: 80vh;
+    margin: 10vh auto;
+    min-width: 300px;
+    position: relative;
+}
+
+.card-close-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.order-status {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 55px 45px;
+}
+
+.order-status>h2 {
+    font-family: "Montserrat", sans-serif;
+    ;
+    font-size: 22px;
+    font-weight: 600;
+    color: #2F463D;
+    margin: 20px 0 15px;
+}
+
+.order-status>p {
+    font-family: "Ubuntu", sans-serif;
+    ;
+    font-size: 14px;
+    color: #828282;
+    line-height: 26px;
+}
