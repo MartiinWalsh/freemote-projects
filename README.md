@@ -21,10 +21,15 @@
 
 # Delivery Status Page
 
-Built with a mobile first design approach.
-
 ## Mobile Version
 <img alt="Mobile Site" width="39%" src="delivery-status/img/screenshots/delivery_status_mobile-screenshot.png" />
+<br>
+
+## Desktop Versions
+<div>
+    <img alt="Desktop Site" width="80%" src="delivery-status/img/screenshots/delivery_status_desktop-screenshot.png" />
+</div>
+<br>
 
 <br><br>
 

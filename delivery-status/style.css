@@ -36,7 +36,7 @@ button {
     box-shadow: 0px 40px 40px -20px #3C7B61;
     border-radius: 5px;
     width: 350px;
-    height: 600px;
+    height: 650px;
     margin: 10vh auto;
     min-width: 300px;
     position: relative;
@@ -59,6 +59,11 @@ button {
     font-size: 22px;
     font-weight: 600;
     margin: 20px 0 15px;
+    height: 60px;
+}
+
+.order-status>img {
+    width: 50%;
 }
 
 .order-status>p {
@@ -101,12 +106,9 @@ button {
     font-size: 13px;
 }
 
-#order-button {
+.order-button {
     width: 100%;
     padding: 10px 0;
-    background: #46A67E;
-    box-shadow: 0px 20px 20px rgba(103, 189, 153, 0.2);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 5px;
     border: none;
     color: white;
@@ -115,8 +117,28 @@ button {
     font-size: 15px;
     font-style: normal;
     transition: .3s ease all;
+}
+
+.confirmation {
+    background: #46A67E;
+    box-shadow: 0px 20px 20px rgba(103, 189, 153, 0.2);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 0;
 
 }
+
+.inactive-btn {
+    background: gray;
+    background: #BDBDBD;
+    box-shadow: 0px 20px 20px rgba(167, 167, 167, 0.2);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    bottom: 22%;
+
+}
+
 
 #order-button:hover {
     opacity: .8;
@@ -143,4 +165,23 @@ button {
 
 .dot.green {
     background-color: #67BD99;
+}
+
+.left,
+.right {
+    display: none;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1074px) {
+
+    .left,
+    .right {
+        display: block;
+    }
+
+    .card-desktop {
+        display: flex;
+    }
 }
