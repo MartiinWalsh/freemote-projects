@@ -30,6 +30,7 @@
     <img alt="Desktop Site" width="80%" src="delivery-status/img/screenshots/delivery_status_desktop-screenshot.png" />
 </div>
 <br>
+<img alt="Desktop Site V2" width="80%" src="delivery-status/img/screenshots/delivery_status_desktop_V2-screenshot.png" />
 
 <br><br>
 

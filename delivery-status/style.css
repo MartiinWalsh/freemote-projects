@@ -10,6 +10,10 @@ body,
 html {
     min-width: 100%;
     min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -37,9 +41,14 @@ button {
     border-radius: 5px;
     width: 350px;
     height: 650px;
-    margin: 10vh auto;
+    margin: 10vh 0;
     min-width: 300px;
     position: relative;
+
+}
+
+.card.center {
+    z-index: 9;
 }
 
 .card-close-icon {
@@ -174,14 +183,23 @@ button {
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1074px) {
+@media only screen and (min-width: 992px) {
 
     .left,
     .right {
         display: block;
     }
 
-    .card-desktop {
-        display: flex;
+    .card.left,
+    .card.right {
+        height: 600px;
+    }
+
+    .card.left {
+        margin-right: -20px;
+    }
+
+    .card.right {
+        margin-left: -20px;
     }
 }

@@ -11,5 +11,5 @@ Built with a mobile first design approach.
 </div>
 <br>
 <div>
-    <img alt="Desktop Site V2" width="80%" src="img/screenshots/" />
+    <img alt="Desktop Site V2" width="80%" src="img/screenshots/delivery_status_desktop_V2-screenshot.png" />
 </div>
