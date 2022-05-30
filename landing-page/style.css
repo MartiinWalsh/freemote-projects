@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    min-width: 100%;
+    min-height: 100vh;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    line-height: 24px;
+}
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.header>h2 {
+    color: #111235;
+    font-weight: 400;
+    font-size: 36px;
+
+}
+
+.bold-span {
+    font-weight: 700;
+}
+
+.content-container {
+    padding: 25px 15px;
+}
+
+.content-container>h1,
+h2 {
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.content-container>h1 {
+
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+.content-container>h2 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.content-container>p {
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+.blue-bg {
+    background-color: #F2F8FF;
+    width: 100%;
+}
+
+.gradient-bg {
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+}
+
+.subtext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111235;
+    padding: 0 auto 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 35px;
+    border-style: none;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 30px auto 10px;
+    width: 230px;
+    padding: 14px 0;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #4B5092;
+    color: white;
+}
+
+.btn-secondary {
+    background: #FFFFFF;
+    color: #436BAA;
+}
