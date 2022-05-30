@@ -1,3 +1,10 @@
+# Landing Page
+
+## Mobile Version
+<img alt="Mobile Site" width="39%" src="landing-page/img/screenshots/landing-page.gif" />
+
+<br><br>
+
 # Coming Soon Page
 
 ## Mobile Versions
