@@ -3,6 +3,17 @@
 ## Mobile Version
 <img alt="Mobile Site" width="39%" src="landing-page/img/screenshots/landing-page.gif" />
 
+## Desktop Version
+<div>
+    <img alt="Desktop Site" width="90%" src="landing-page/img/screenshots/Landing_page-Desktop_view_1.png" />
+</div>
+<div>
+    <img alt="Desktop Site" width="90%" src="landing-page/img/screenshots/Landing_page-Desktop_view_2.png" />
+</div>
+<div>
+    <img alt="Desktop Site" width="90%" src="landing-page/img/screenshots/Landing_page-Desktop_view_3.png" />
+</div>
+
 <br><br>
 
 # Coming Soon Page
