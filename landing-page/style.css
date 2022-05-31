@@ -33,22 +33,25 @@ p {
     line-height: 24px;
 }
 
-ul li {
-    list-style-type: none;
-    margin: 50px auto;
-
+ul {
+    padding-left: 0;
+    padding: 30px 0;
 }
 
-.header {
+ul li {
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+.nav-bar {
     height: 75px;
-    background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header>h2 {
+.nav-bar>h2 {
     color: #111235;
     font-weight: 400;
     font-size: 36px;
@@ -63,20 +66,20 @@ ul li {
     padding: 25px 15px;
 }
 
-.content-container>h1,
+.content-container h1,
 h2 {
     font-weight: 300;
     margin: 15px 0;
 }
 
-.content-container>h1 {
+.content-container h1 {
 
     font-size: 64px;
     line-height: 75px;
 
 }
 
-.content-container>h2 {
+.content-container h2 {
     font-size: 48px;
     line-height: 58px;
 }
@@ -88,13 +91,11 @@ h2 {
     margin: 0 auto 40px;
 }
 
-.content-container>p {
+.content-container p {
     font-weight: 300;
     font-size: 16px;
     margin-top: 20px;
 }
-
-
 
 .blue-bg {
     background-color: #F2F8FF;
@@ -195,7 +196,8 @@ input::placeholder {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    margin-top: 50px;
+    margin: 20px 0 60px;
+    text-align: center;
 }
 
 input[type="text"] {
@@ -218,4 +220,178 @@ input[type="text"] {
 
 .border-bottom {
     border-bottom: 1px solid black;
+}
+
+.top-menu {
+    display: none;
+}
+
+.desktop-only {
+    display: none;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .constrain {
+        max-width: 1500px;
+    }
+
+    .outer-container {
+        margin: 0 10%;
+    }
+
+    .nav-bar {
+        box-shadow: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-menu {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-left: 0;
+    }
+
+    .hero-text {
+        width: 50%;
+        text-align: left;
+    }
+
+    .hero-section img {
+        width: 45%;
+    }
+
+    .btn {
+        margin: 35px 0;
+    }
+
+    .left-to-right {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .workout-img-2 {
+        width: 45%
+    }
+
+    .blue-bg {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+        border-radius: 50px;
+    }
+
+    .gradient-bg {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .trainer-text {
+        width: 30%;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .gradient-bg img {
+        margin: 0;
+        width: 450px;
+    }
+
+    .simple-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .simple-flex>* {
+        margin: 0;
+    }
+
+    .panels-img-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-top: 50px;
+    }
+
+    .panels-img-container img {
+        width: 30%;
+    }
+
+    .benefit-containers {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .benefit-container {
+        width: 49%;
+        box-sizing: border-box;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+
+    footer.content-container {
+        display: flex;
+        padding: 40px 0 0;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    footer h2 {
+        width: 30%;
+        text-align: left;
+    }
+
+    footer ul {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 200px;
+        padding: 0;
+        padding-right: 10%;
+    }
+
+    footer li {
+        padding-top: 15px;
+    }
+
+    footer .stay-up-to-date {
+        padding-top: 10px;
+        width: 30%;
+        text-align: left;
+    }
+
+    footer .stay-up-to-date input[type="text"] {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #copyright {
+        text-align: left;
+        margin-top: 0;
+        padding-top: 0;
+    }
 }

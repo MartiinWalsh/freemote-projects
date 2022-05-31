@@ -7,7 +7,13 @@ Built with a mobile first design approach.
 
 ## Desktop Version
 <div>
-    <img alt="Desktop Site" width="80%" src="img/screenshots/" />
+    <img alt="Desktop Site" width="90%" src="img/screenshots/Landing_page-Desktop_view_1.png" />
+</div>
+<div>
+    <img alt="Desktop Site" width="90%" src="img/screenshots/Landing_page-Desktop_view_2.png" />
+</div>
+<div>
+    <img alt="Desktop Site" width="90%" src="img/screenshots/Landing_page-Desktop_view_3.png" />
 </div>
 <br>
 
